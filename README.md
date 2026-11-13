@@ -1,17 +1,26 @@
 # ODDLY Prototyp
 
 Erlebbarer Desktop-Prototyp von ODDLY (Demo-Fall: LinkedIn-Kampagne zur TRUMPF TruLaser 1030).
-Alles steckt in einer Datei: `index.html` enthält Code, Schriften, Bilder und Logos. Kein Build, kein Server nötig.
+Jede Version steckt in einer einzigen Datei (Code, Schriften, Bilder und Logos eingebettet). Kein Build, kein Server nötig.
+
+## Versionen
+
+| Ordner | Link | Inhalt |
+|---|---|---|
+| `/` | `https://<name>.github.io/<repo>/` | aktueller Stand (vereinfachte Version, in Arbeit) |
+| `/v1/` | `https://<name>.github.io/<repo>/v1/` | Version 1: Agentur-Flow, Stand 12. November |
+
+Beide Versionen merken sich ihren Stand getrennt und kommen sich nicht in die Quere.
 
 ## Auf GitHub Pages veröffentlichen
 
 1. Auf github.com ein neues Repository anlegen (z. B. `oddly-prototyp`).
-2. Im leeren Repository auf **uploading an existing file** klicken und `index.html`, `.nojekyll` und `README.md` hineinziehen. Dann **Commit changes**.
+2. Im leeren Repository auf **uploading an existing file** klicken und alles aus dem entpackten ZIP hineinziehen: `index.html`, `.nojekyll`, `README.md` und den Ordner `v1`. Dann **Commit changes**.
    Tipp: `.nojekyll` ist auf dem Mac versteckt. Im Finder mit Cmd + Shift + . einblenden.
 3. **Settings → Pages**: Source „Deploy from a branch“, Branch `main`, Ordner `/ (root)`, **Save**.
 4. Nach ein bis zwei Minuten steht oben die Adresse, etwa `https://<name>.github.io/oddly-prototyp/`.
 
-Aktualisieren: neue `index.html` hochladen und die alte damit ersetzen.
+Aktualisieren: neue `index.html` hochladen und die alte damit ersetzen. Der Ordner `v1` bleibt einfach liegen.
 
 ## Bedienen
 
