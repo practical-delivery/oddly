@@ -8,6 +8,7 @@ Jede Version steckt in einer einzigen Datei (Code, Schriften, Bilder und Logos e
 | Ordner | Link | Inhalt |
 |---|---|---|
 | `/` | `https://<name>.github.io/<repo>/` | aktueller Stand (in Arbeit) |
+| `/v3/` | `https://<name>.github.io/<repo>/v3/` | Version 3: Vorschläge als Board, Source Sans, Stand 17. November |
 | `/v2/` | `https://<name>.github.io/<repo>/v2/` | Version 2: vereinfachte Version, Stand 16. November |
 | `/v1/` | `https://<name>.github.io/<repo>/v1/` | Version 1: Agentur-Flow, Stand 12. November |
 
@@ -16,12 +17,12 @@ Alle Versionen merken sich ihren Stand getrennt und kommen sich nicht in die Que
 ## Auf GitHub Pages veröffentlichen
 
 1. Auf github.com ein neues Repository anlegen (z. B. `oddly-prototyp`).
-2. Im leeren Repository auf **uploading an existing file** klicken und alles aus dem entpackten ZIP hineinziehen: `index.html`, `.nojekyll`, `README.md` und die Ordner `v1` und `v2`. Dann **Commit changes**.
+2. Im leeren Repository auf **uploading an existing file** klicken und alles aus dem entpackten ZIP hineinziehen: `index.html`, `.nojekyll`, `README.md` und die Ordner `v1`, `v2` und `v3`. Dann **Commit changes**.
    Tipp: `.nojekyll` ist auf dem Mac versteckt. Im Finder mit Cmd + Shift + . einblenden.
 3. **Settings → Pages**: Source „Deploy from a branch“, Branch `main`, Ordner `/ (root)`, **Save**.
 4. Nach ein bis zwei Minuten steht oben die Adresse, etwa `https://<name>.github.io/oddly-prototyp/`.
 
-Aktualisieren: neue `index.html` hochladen und die alte damit ersetzen. Die Ordner `v1` und `v2` bleiben einfach liegen.
+Aktualisieren: neue `index.html` hochladen und die alte damit ersetzen. Die Ordner `v1`, `v2` und `v3` bleiben einfach liegen.
 
 ## Bedienen
 
@@ -34,4 +35,4 @@ Aktualisieren: neue `index.html` hochladen und die alte damit ersetzen. Die Ordn
 
 - **Öffentlich:** GitHub Pages ist bei kostenlosen Konten öffentlich, auch wenn das Repository privat ist. Wer die Adresse kennt, sieht den Prototyp. Suchmaschinen sind per `noindex` ausgeschlossen, das ist aber kein Schutz. Für einen Passwortschutz besser Vercel mit Basic Auth nutzen.
 - **Inhalte:** Der Demo-Fall nennt TRUMPF und zeigt Motive und Texte zur TruLaser 1030. Vor dem Veröffentlichen klären, ob das öffentlich sichtbar sein darf.
-- **Schriften:** Avenir ist eine lizenzpflichtige Schrift. Für eine öffentliche Webseite braucht es eine passende Weblizenz.
+- **Schriften:** Die UI-Schrift Source Sans steht unter der SIL Open Font License und darf frei eingebettet werden. Chillax (Überschriften) ist separat lizenziert.
