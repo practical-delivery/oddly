@@ -8,6 +8,7 @@ Jede Version steckt in einer einzigen Datei (Code, Schriften, Bilder und Logos e
 | Ordner | Link | Inhalt |
 |---|---|---|
 | `/` | `https://<name>.github.io/<repo>/` | aktueller Stand (in Arbeit) |
+| `/v5/` | `https://<name>.github.io/<repo>/v5/` | Version 5: Bibliothek mit Asset-Detail, Apps „Formate produzieren“ und „CD-konformes Bild“ wie der Kampagnenprozess, Stand 23. November |
 | `/v4/` | `https://<name>.github.io/<repo>/v4/` | Version 4: Exide Sprinter, Konzepte-Board, vier große Schritte, Stand 18. November |
 | `/v3/` | `https://<name>.github.io/<repo>/v3/` | Version 3: Vorschläge als Board, Source Sans, Stand 17. November |
 | `/v2/` | `https://<name>.github.io/<repo>/v2/` | Version 2: vereinfachte Version, Stand 16. November |
@@ -18,12 +19,12 @@ Alle Versionen merken sich ihren Stand getrennt und kommen sich nicht in die Que
 ## Auf GitHub Pages veröffentlichen
 
 1. Auf github.com ein neues Repository anlegen (z. B. `oddly-prototyp`).
-2. Im leeren Repository auf **uploading an existing file** klicken und alles aus dem entpackten ZIP hineinziehen: `index.html`, `.nojekyll`, `README.md` und die Ordner `v1`, `v2`, `v3` und `v4`. Dann **Commit changes**.
+2. Im leeren Repository auf **uploading an existing file** klicken und alles aus dem entpackten ZIP hineinziehen: `index.html`, `.nojekyll`, `README.md` und die Ordner `v1` bis `v5`. Dann **Commit changes**.
    Tipp: `.nojekyll` ist auf dem Mac versteckt. Im Finder mit Cmd + Shift + . einblenden.
 3. **Settings → Pages**: Source „Deploy from a branch“, Branch `main`, Ordner `/ (root)`, **Save**.
 4. Nach ein bis zwei Minuten steht oben die Adresse, etwa `https://<name>.github.io/oddly-prototyp/`.
 
-Aktualisieren: neue `index.html` hochladen und die alte damit ersetzen. Die Ordner `v1`, `v2`, `v3` und `v4` bleiben einfach liegen.
+Aktualisieren: neue `index.html` hochladen und die alte damit ersetzen. Die Ordner `v1` bis `v5` bleiben einfach liegen.
 
 ## Bedienen
 
